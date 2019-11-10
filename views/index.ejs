@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pixabay Search </title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body background="#">
+        <h1 align=middle> Pixabay Search </h1>
+        
+        <form align=middle action="/results" method="GET">
+            
+            Keyword: <input type="text" name="keyword">
+            <button> Search </button>
+
+            <br>
+            <!--set orientation-->
+            Orientation:
+            <select name="orientation">
+                <option value="">Choose One</option>
+                <option value="vertical">Vertical</option>
+                <option value="horizontal">Horizontal</option>
+            </select>
+            
+        </form> <br>
+        
+        <!--for image render-->
+        <div class="row"> 
+            <div align=middle class="column"> <img src='<%= image %>' width='1500'> <br> Likes: <%= likes %> </div>
+            
+            <div align=middle class="column"> <img src='<%= image2 %>' width='1500'> <br> Likes: <%= likes2 %> </div>
+            
+            <div align=middle class="column"> <img src='<%= image3 %>' width='1500'> <br> Likes: <%= likes3 %> </div>
+            
+            <div align=middle class="column"> <img src='<%= image4 %>' width='1500'> <br> Likes: <%= likes4 %> </div>
+        </div>
+    </body>
+</html>

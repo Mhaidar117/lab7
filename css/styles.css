@@ -1,0 +1,55 @@
+body{
+    text-align:center;
+    background-color: #A0522D;
+}
+
+.jumbotron {
+  background-color:#A0522D;
+}
+
+
+p {
+	font-size: 16px;
+	text-align: center;
+	text-justify: inter-word;
+}
+
+body {
+  font-size: 12pt;
+	background: #A0522D;
+}
+
+header {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 5px;
+  flex: 25%;
+  
+}
+
+h1 {
+  font-family: Open Sans Bold;
+  color: #C0C0C0;
+}
+    
+h2 {
+  font-family: Open Sans Bold;
+	color: #2E4053;
+}
+
+h3 {
+  font-family: Open Sans Bold;
+	color: #2E4053;
+}
+
+h4 {
+  font-family: Open Sans Bold;
+	color: #2E4053;
+}
+
